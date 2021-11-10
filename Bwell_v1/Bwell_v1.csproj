@@ -64,6 +64,8 @@
     <Compile Include="ActivityCreate.cs" />
     <Compile Include="ActivityEdit.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Medicine.cs" />
+    <Compile Include="Prescription.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -124,6 +126,16 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\listPod.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\prescriptionChoice.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\listpod2.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

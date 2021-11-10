@@ -24,11 +24,6 @@
             android:layout_weight="5"
         />
 
-        <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:gravity="center_vertical"
-            android:id="@+id/btnOptions"/>
     </LinearLayout>
 
     <TextView
@@ -71,8 +66,8 @@
     <Button
         android:layout_marginTop="30dp"
         android:layout_gravity="center"
-        android:layout_width="175dp"
-        android:layout_height="100dp"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
         android:background="#075BBA"
         android:text="return"
         android:textColor="@android:color/white"
