@@ -1,5 +1,6 @@
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -37,6 +38,19 @@
 
     <ListView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="300dp"
         android:id="@+id/lvList"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:background="#075BBA"
+        android:text="return"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/btnReturn"
+        />
 </LinearLayout>

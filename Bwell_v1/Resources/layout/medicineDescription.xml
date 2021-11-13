@@ -4,7 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C5E0FF">
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -26,13 +32,37 @@
 
     </LinearLayout>
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/iv"/>
+
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:textSize="20sp"
-            android:layout_gravity="center"
-            android:text="about:"
+            android:text="name:"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:text="active substance:"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:text="dose:"
             android:textStyle="bold"
             android:textColor="@android:color/black"
             />
@@ -75,5 +105,7 @@
         android:textSize="25dp"
         android:id="@+id/btnReturn"
         />
+    </LinearLayout>
+    </ScrollView>
 </LinearLayout>
 

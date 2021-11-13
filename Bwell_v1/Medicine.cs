@@ -11,9 +11,14 @@ using Android.Views;
 using Android.Widget;
 
 namespace Bwell_v1
-{
-    class Medicine
+{/*
+    class Medicine : Substance
     {
+        string name;
+        Substance activeSubstance; //main ingredient
+        float dose; //in mg
+        float amount; //amount of substance within the bottle in mg
 
-    }
+        Medicine()
+    }*/
 }
